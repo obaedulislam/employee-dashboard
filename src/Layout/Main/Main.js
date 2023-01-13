@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router";
 import Sidebar from "../../Shared/Sidebar/Sidebar";
+import TopBarMenu from "../../Shared/TopBarMenu/TopBarMenu";
 
 const Main = () => {
   return (
@@ -9,6 +10,7 @@ const Main = () => {
         <Sidebar></Sidebar>
       </div>
       <div className="col-span-9">
+        <TopBarMenu></TopBarMenu>
         <Outlet></Outlet>
       </div>
     </div>
