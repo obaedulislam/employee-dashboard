@@ -7,9 +7,8 @@ module.exports = {
         employeeDashboard: {
           primary: "#1E2772",
           secondary: "#000000",
-          light: "#EEEEEE",
           accent: "#E25959",
-          neutral: "#3d4451",
+          neutral: "#EEEEEE",
           "base-100": "#ffffff",
         },
       },
