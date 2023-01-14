@@ -9,11 +9,11 @@ const TopBarMenu = () => {
   return (
     <div className="top-menu py-6 px-20 bg-white flex items-center justify-between">
       <div className="left-menu flex items-center py-1  px-4 border rounded border-[#dddcdc] w-[40%]">
-        <BsSearch className="text-[#A49999] text-xl mr-3"></BsSearch>
+        <BsSearch className="text-[#A49999] text-2xl mr-3"></BsSearch>
         <input
           type="text"
           placeholder="Search"
-          className="b-0 focus:outline-none  text-[#A49999] uppercase tracking-wider text-sm"
+          className="b-0 focus:outline-none w-full leading-3 text-[#A49999] uppercase tracking-wider text-sm"
         />
       </div>
       <div className="right-menu flex items-center justify-end">

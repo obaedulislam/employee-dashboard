@@ -73,7 +73,7 @@ const ExpenseReport = () => {
                             <li className="text-xs font-semibold mr-2">Year</li>
                         </ul>
                     </div>
-                    <button className="py-1 px-7 shadow-2xl bg-primary rounded-xl lg:mb-0 mb-2 text-white capitalize">
+                    <button className="py-1 px-7 shadow-2xl btn-primary rounded-xl lg:mb-0 mb-2 text-white capitalize">
                         Export Details
                     </button>
                 </div>

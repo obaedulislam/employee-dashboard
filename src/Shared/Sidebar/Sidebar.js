@@ -34,7 +34,7 @@ const Sidebar = () => {
               </NavLink>
             </li>
             <li className="p-0  ">
-              <NavLink to="/dashboard" className="p-0 ">
+              <NavLink to="/attendance" className="p-0 ">
                 <button className="w-full py-2.5 pl-16 font-semibold text-center hover:bg-[#eeeeee33] duration-200 text-lg text-white flex ">
                   <img className="w-8 h-6 mr-4" src={menuicon} alt="" />
                   <span>Attendance</span>
