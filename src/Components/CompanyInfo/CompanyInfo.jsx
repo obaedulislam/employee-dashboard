@@ -12,7 +12,7 @@ const CompanyInfo = ({ cStatus }) => {
     const { title, totalEmployee } = cStatus;
 
     return (
-        <div className="bg-white rounded-md p-6 mt-6">
+        <div className="bg-white rounded-xl  p-6 mt-6">
             <div className="flex items-center">
                 <FaUsers></FaUsers>
                 <span className="ml-2 text-[#A5A5A5] text-xs"  >
@@ -20,7 +20,7 @@ const CompanyInfo = ({ cStatus }) => {
                 </span>
             </div>
             <div className="flex justify-between items-center mt-8">
-                <h2 className="text-4xl font-bold text-secondary">{totalEmployee}</h2>
+                <h2 className="text-3xl font-bold text-secondary">{totalEmployee}</h2>
                 <button className="px-5 py-2  text-xs text-white btn-primary rounded-lg ">
                     View All
                 </button>

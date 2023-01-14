@@ -18,7 +18,7 @@ const Sidebar = () => {
 
   return (
     <div className="vh-full">
-      <h1 className="text-4xl text-white font-semibold p-10 flex items-center">
+      <h1 className="text-3xl text-white font-semibold p-10 flex items-center">
         <img className="w-10 h-10 mr-2" src={logo} alt="" />
         <span>NextGen IT</span>
       </h1>

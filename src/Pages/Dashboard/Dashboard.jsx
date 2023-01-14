@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router';
 import CompanyInfo from '../../Components/CompanyInfo/CompanyInfo';
+import ExpenseReport from '../../Components/ExpenseReport/ExpenseReport';
 
 const Dashboard = () => {
 
@@ -8,8 +9,8 @@ const Dashboard = () => {
     console.log(companyInfo?.companyStatus);
 
     return (
-        <div className='bg-[#f4f4f4] p-20'>
-            <h1 className="text-4xl text-primary font-bold">Dashboard</h1>
+        <div className='bg-[#f4f4f4] p-16'>
+            <h1 className="text-3xl text-primary font-bold">Dashboard</h1>
 
             <div className='company-info'>
                 <h5 className='text-secondary text-xs font-bold mt-10'>Company Status</h5>
@@ -21,6 +22,14 @@ const Dashboard = () => {
                         ></CompanyInfo>)
                     }
                 </div>
+                {/* Company Status Section End */}
+
+
+                <div className='grid  md:grid-cols-2 grid-cols-1 gap-6'>
+                    <ExpenseReport></ExpenseReport>
+                </div>
+
+
             </div>
 
         </div>

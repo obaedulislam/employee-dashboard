@@ -5,11 +5,11 @@ import TopBarMenu from "../../Shared/TopBarMenu/TopBarMenu";
 
 const Main = () => {
   return (
-    <div className="grid grid-cols-12">
-      <div className="col-span-3 bg-primary h-screen">
+    <div className="flex ">
+      <div className=" bg-primary w-1/5">
         <Sidebar></Sidebar>
       </div>
-      <div className="col-span-9">
+      <div className="w-4/5">
         <TopBarMenu></TopBarMenu>
         <Outlet></Outlet>
       </div>
