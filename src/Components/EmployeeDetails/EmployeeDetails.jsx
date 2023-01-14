@@ -19,28 +19,28 @@ const EmployeeDetails = () => {
                                     <input type="checkbox" />
                                 </label>
                             </th>
-                            <th className="bg-white font-semibold text-slate-400 border-b-2">
+                            <th className="bg-white text-sm capitalize font-normal text-slate-400 border-b-2">
                                 Employee Name
                             </th>
-                            <th className="bg-white font-semibold text-slate-400 border-b-2">
+                            <th className="bg-white text-sm capitalize font-normal text-slate-400 border-b-2">
                                 Department
                             </th>
-                            <th className="bg-white font-semibold text-slate-400 border-b-2">
+                            <th className="bg-white text-sm capitalize font-normal text-slate-400 border-b-2">
                                 Check In
                             </th>
-                            <th className="bg-white font-semibold text-slate-400 border-b-2">
+                            <th className="bg-white text-sm capitalize font-normal text-slate-400 border-b-2">
                                 Check Out
                             </th>
-                            <th className="bg-white font-semibold text-slate-400 border-b-2">
+                            <th className="bg-white text-sm capitalize font-normal text-slate-400 border-b-2">
                                 Remarks
                             </th>
-                            <th className="bg-white font-semibold text-slate-400 border-b-2">
+                            <th className="bg-white text-sm capitalize font-normal text-slate-400 border-b-2">
                                 Hours
                             </th>
-                            <th className="bg-white font-semibold text-slate-400 border-b-2">
+                            <th className="bg-white text-sm capitalize font-normal text-slate-400 border-b-2">
                                 Overtime
                             </th>
-                            <th className="bg-white font-semibold text-slate-400 border-b-2">
+                            <th className="bg-white text-sm capitalize font-normal text-slate-400 border-b-2">
                                 Action
                             </th>
                         </tr>

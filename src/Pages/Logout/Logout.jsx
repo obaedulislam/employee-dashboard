@@ -1,9 +1,10 @@
 import React from 'react';
+import ComingSoon from '../ComingSoon/ComingSoon';
 
 const Logout = () => {
     return (
         <div>
-            <h1>Logout</h1>
+            <ComingSoon></ComingSoon>
         </div>
     );
 };

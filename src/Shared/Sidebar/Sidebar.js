@@ -17,7 +17,7 @@ const Sidebar = () => {
   };
 
   const normalButton =
-    "w-full py-2.5 pl-16 font-semibold text-center hover:bg-[#eeeeee33] duration-200 text-lg text-white flex";
+    "w-full py-2.5 pl-16 font-semibold text-center hover:bg-[#eeeeee33] duration-200 text-lg text-white flex items-center";
   const activeButton =
     "w-full py-2.5 pl-16 font-semibold text-center bg-[#eeeeee33] hover:bg-[#eeeeee33] duration-200 text-lg text-white flex";
   const dropdownMenu =
@@ -27,7 +27,7 @@ const Sidebar = () => {
     <div className="vh-full">
       <Link
         to="/"
-        className="text-3xl text-white font-semibold p-10 flex items-center"
+        className="text-3xl text-white font-semibold p-8 flex items-center"
       >
         <img className="w-10 h-10 mr-2" src={logo} alt="" />
         <span>NextGen IT</span>
@@ -42,7 +42,7 @@ const Sidebar = () => {
                   isActive ? activeButton : normalButton
                 }
               >
-                <img className="w-8 h-6 mr-4" src={menuicon} alt="" />
+                <img className="w-8 h-6 mr-3" src={menuicon} alt="" />
                 <span>Dashboard</span>
               </NavLink>
             </li>
@@ -53,7 +53,7 @@ const Sidebar = () => {
                   isActive ? activeButton : normalButton
                 }
               >
-                <img className="w-8 h-6 mr-4" src={menuicon} alt="" />
+                <img className="w-8 h-6 mr-3" src={menuicon} alt="" />
                 <span>Attendance</span>
               </NavLink>
             </li>
@@ -64,7 +64,7 @@ const Sidebar = () => {
                   isActive ? activeButton : normalButton
                 }
               >
-                <img className="w-8 h-6 mr-4" src={menuicon} alt="" />
+                <img className="w-8 h-6 mr-3" src={menuicon} alt="" />
                 <span>Leaves</span>
               </NavLink>
             </li>
@@ -75,7 +75,7 @@ const Sidebar = () => {
                   isActive ? activeButton : normalButton
                 }
               >
-                <img className="w-8 h-6 mr-4" src={menuicon} alt="" />
+                <img className="w-8 h-6 mr-3" src={menuicon} alt="" />
                 <span>Expense</span>
               </NavLink>
             </li>
@@ -86,7 +86,7 @@ const Sidebar = () => {
                   isActive ? activeButton : normalButton
                 }
               >
-                <img className="w-8 h-6 mr-4" src={menuicon} alt="" />
+                <img className="w-8 h-6 mr-3" src={menuicon} alt="" />
                 <span>Notice</span>
               </NavLink>
             </li>
@@ -97,7 +97,7 @@ const Sidebar = () => {
                   isActive ? activeButton : normalButton
                 }
               >
-                <img className="w-8 h-6 mr-4" src={menuicon} alt="" />
+                <img className="w-8 h-6 mr-3" src={menuicon} alt="" />
                 <span>Departments</span>
               </NavLink>
             </li>
@@ -174,7 +174,7 @@ const Sidebar = () => {
                   isActive ? activeButton : normalButton
                 }
               >
-                <MdOutlineLogout className="w-8 h-8  mr-4"></MdOutlineLogout>
+                <MdOutlineLogout className="w-8 h-8  mr-3"></MdOutlineLogout>
                 <span>Logout</span>
               </NavLink>
             </li>

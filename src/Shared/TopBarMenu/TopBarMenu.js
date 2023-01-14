@@ -7,7 +7,7 @@ import user from "../../assets/user.jpg";
 
 const TopBarMenu = () => {
   return (
-    <div className="top-menu py-6 px-20 bg-white flex items-center justify-between">
+    <div className="top-menu py-3 px-20 bg-white flex items-center justify-between shadow">
       <div className="left-menu flex items-center py-1  px-4 border rounded border-[#dddcdc] w-[40%]">
         <BsSearch className="text-[#A49999] text-2xl mr-3"></BsSearch>
         <input
@@ -26,7 +26,7 @@ const TopBarMenu = () => {
           <li className="relative">
             <NavLink>
               <img className="w-6 h-6 " src={notification} alt="" />
-              <div className="absolute -bottom-[6px] right-[6px] w-3 h-3 rounded-full bg-accent -z-0"></div>
+              <div className="absolute -bottom-[5px] right-[0px] w-3 h-3 rounded-full bg-accent -z-0"></div>
             </NavLink>
           </li>
           <li>

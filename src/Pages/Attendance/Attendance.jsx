@@ -3,6 +3,7 @@ import bluesetting from "../../assets/bluesetting.png";
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { FaAngleDown } from 'react-icons/fa';
 import EmployeeDetails from '../../Components/EmployeeDetails/EmployeeDetails';
+import Pagination from '../../Components/Pagination/Pagination';
 
 const Attendance = () => {
     return (
@@ -58,9 +59,20 @@ const Attendance = () => {
                 </div>
             </div>
             {/* Date Section done */}
-            <div>
-                <EmployeeDetails></EmployeeDetails>
+
+            <div className='bg-white'>
+                <div>
+                    <EmployeeDetails></EmployeeDetails>
+                </div>
+                {/* Employee Details End */}
+
+                <div className='p-10'>
+                    <Pagination></Pagination>
+                </div>
+                {/* Employee Details End */}
             </div>
+
+
         </div>
     );
 };

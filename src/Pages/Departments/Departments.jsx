@@ -1,9 +1,10 @@
 import React from 'react';
+import ComingSoon from '../ComingSoon/ComingSoon';
 
 const Departments = () => {
     return (
         <div>
-            <h1>Department</h1>
+            <ComingSoon></ComingSoon>
         </div>
     );
 };
