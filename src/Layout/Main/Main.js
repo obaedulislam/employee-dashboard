@@ -6,7 +6,7 @@ import TopBarMenu from "../../Shared/TopBarMenu/TopBarMenu";
 const Main = () => {
   return (
     <div className="grid grid-cols-12">
-      <div className="col-span-3 bg-primary">
+      <div className="col-span-3 bg-primary h-screen">
         <Sidebar></Sidebar>
       </div>
       <div className="col-span-9">

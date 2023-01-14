@@ -17,7 +17,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div>
+    <div className="vh-full">
       <h1 className="text-4xl text-white font-semibold p-10 flex items-center">
         <img className="w-10 h-10 mr-2" src={logo} alt="" />
         <span>NextGen IT</span>
@@ -26,7 +26,7 @@ const Sidebar = () => {
         <div className="dashboard-menu-item">
           <ul>
             <li className="p-0 md:mt-0 ">
-              <NavLink to="/dashboard" className="p-0 ">
+              <NavLink to="/" className="p-0 ">
                 <button className="w-full py-2.5 pl-16 font-semibold text-center hover:bg-[#eeeeee33] duration-200 text-lg text-white flex ">
                   <img className="w-8 h-6 mr-4" src={menuicon} alt="" />
                   <span>Dashboard</span>
