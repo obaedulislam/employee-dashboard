@@ -62,8 +62,8 @@ const graphData = [
 const ExpenseReport = () => {
     return (
         <div>
-            <h5 className="mb-3 font-bold">Expense Report</h5>
-            <div className="bg-white rounded p-8">
+            <h3 className="text-secondary text-xs font-bold  mb-6">Expense Report</h3>
+            <div className="bg-white rounded-xl p-6 shadow-lg ">
                 <div className="flex lg:flex-row md:flex-row flex-col-reverse justify-between items-center">
                     <div>
                         <ul className="flex text-xs font-semibold space-x-5 text-[#bcbcbc]">
@@ -73,21 +73,21 @@ const ExpenseReport = () => {
                             <li className="text-xs font-semibold mr-2">Year</li>
                         </ul>
                     </div>
-                    <button className="py-2 px-7 shadow-lg bg-primary rounded-xl lg:mb-0 mb-2 text-white capitalize">
+                    <button className="py-1 px-7 shadow-2xl bg-primary rounded-xl lg:mb-0 mb-2 text-white capitalize">
                         Export Details
                     </button>
                 </div>
-                <div className='my-8'>
+                <div className='my-2 '>
                     <h2 className="text-3xl font-bold text-secondary"><span className='text-3xl'>৳</span>45,000</h2>
                     <div className="graph mt-10">
-                        <ResponsiveContainer height={230}>
+                        <ResponsiveContainer height={160} className='text-xs'>
                             <AreaChart
                                 width={500}
                                 height={150}
                                 data={graphData}
                                 margin={{
                                     top: 0,
-                                    right: 20,
+                                    right: 10,
                                     left: 0,
                                     bottom: 0,
                                 }}

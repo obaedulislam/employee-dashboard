@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router';
 import CompanyInfo from '../../Components/CompanyInfo/CompanyInfo';
 import ExpenseReport from '../../Components/ExpenseReport/ExpenseReport';
+import TaskSummary from '../../Components/TaskSummary/TaskSummary';
 
 const Dashboard = () => {
 
@@ -25,8 +26,9 @@ const Dashboard = () => {
                 {/* Company Status Section End */}
 
 
-                <div className='grid  md:grid-cols-2 grid-cols-1 gap-6'>
+                <div className='grid  md:grid-cols-2 grid-cols-1 gap-6 mt-20 vh-full'>
                     <ExpenseReport></ExpenseReport>
+                    <TaskSummary></TaskSummary>
                 </div>
 
 
