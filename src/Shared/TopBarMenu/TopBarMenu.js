@@ -23,9 +23,10 @@ const TopBarMenu = () => {
               <img className="w-6 h-6" src={calender} alt="" />
             </NavLink>
           </li>
-          <li>
+          <li className="relative">
             <NavLink>
-              <img className="w-6 h-6" src={notification} alt="" />
+              <img className="w-6 h-6 " src={notification} alt="" />
+              <div className="absolute -bottom-[6px] right-[6px] w-3 h-3 rounded-full bg-accent -z-0"></div>
             </NavLink>
           </li>
           <li>

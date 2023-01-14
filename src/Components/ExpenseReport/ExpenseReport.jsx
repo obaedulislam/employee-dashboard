@@ -22,7 +22,7 @@ const graphData = [
     },
     {
         name: 'Nov 12',
-        uv: 480,
+        uv: 580,
         pv: 3908,
         amt: 2000,
     },
@@ -46,7 +46,7 @@ const graphData = [
     },
     {
         name: 'Nov 30',
-        uv: 600,
+        uv: 800,
         pv: 4300,
         amt: 2100,
     },
@@ -80,7 +80,7 @@ const ExpenseReport = () => {
                 <div className='my-2 '>
                     <h2 className="text-3xl font-bold text-secondary"><span className='text-3xl'>৳</span>45,000</h2>
                     <div className="graph mt-10">
-                        <ResponsiveContainer height={160} className='text-xs'>
+                        <ResponsiveContainer height={180} className='text-[10px]'>
                             <AreaChart
                                 width={500}
                                 height={150}

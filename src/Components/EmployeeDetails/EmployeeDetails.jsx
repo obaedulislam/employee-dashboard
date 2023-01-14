@@ -5,9 +5,8 @@ import doc from "../../assets/doc.png";
 
 const EmployeeDetails = () => {
 
-    const employeeTable = useLoaderData();
-    console.log(employeeTable);
-
+    const employeesTable = useLoaderData();
+    console.log(employeesTable);
 
     return (
         <div className="mt-[60px]">
@@ -48,8 +47,8 @@ const EmployeeDetails = () => {
                     </thead>
                     <tbody>
                         {(
-                            employeeTable[0]?.employeeStatus?.map((employee) => (
-                                <tr key={employee.id} className="hover">
+                            employeesTable[0]?.employeeStatus?.map((employee, i) => (
+                                (i % 2 === 1) ? <tr key={employee.id} className="hover">
                                     <th>
                                         <label>
                                             <input type="checkbox" />
@@ -64,18 +63,43 @@ const EmployeeDetails = () => {
                                         <span className="bg-accent text-sm rounded-[10px] px-2 text-white">{employee?.checkOut}</span>
                                     </td>
                                     <td>
-                                        {
-                                            employee.checkIn[1] ? <img src={doc} alt=""></img> : ''
-                                        }
+                                        <img src={doc} className="w-6 h-7" alt="" />
                                     </td>
                                     <td></td>
                                     <td></td>
                                     <th>
-                                        <button className="btn btn-ghost text-xl btn-xs">
+                                        <button className="btn btn-primary btn-outline border-0 btn-xs text-lg">
                                             <FaEye className=''></FaEye>
                                         </button>
                                     </th>
                                 </tr>
+                                    :
+                                    <tr key={employee.id} className="hover">
+                                        <th>
+                                            <label>
+                                                <input type="checkbox" />
+                                            </label>
+                                        </th>
+                                        <td>Jahid Hasan</td>
+                                        <td>HR & Admin</td>
+                                        <td>
+                                            <span className="bg-[#4AA785] text-sm rounded-[10px] px-2 text-white">{employee?.checkIn}</span>
+                                        </td>
+                                        <td>
+                                            <span className="bg-[#4AA785] text-sm rounded-[10px] px-2 text-white">{employee?.checkOut}</span>
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <th>
+                                            <button className="btn btn-primary btn-outline border-0 btn-xs text-lg">
+                                                <FaEye className=''></FaEye>
+                                            </button>
+                                        </th>
+                                    </tr>
+
                             ))
                         )}
                     </tbody>
