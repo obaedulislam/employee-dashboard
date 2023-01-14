@@ -2,6 +2,7 @@ import React from 'react';
 import bluesetting from "../../assets/bluesetting.png";
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { FaAngleDown } from 'react-icons/fa';
+import EmployeeDetails from '../../Components/EmployeeDetails/EmployeeDetails';
 
 const Attendance = () => {
     return (
@@ -55,6 +56,10 @@ const Attendance = () => {
                         <FaAngleDown className='text-xl text-gray-400'></FaAngleDown>
                     </div>
                 </div>
+            </div>
+            {/* Date Section done */}
+            <div>
+                <EmployeeDetails></EmployeeDetails>
             </div>
         </div>
     );

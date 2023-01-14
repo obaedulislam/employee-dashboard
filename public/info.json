@@ -43,16 +43,6 @@
                 "id":14,
                 "checkIn":"9:23 am",
                 "checkOut":"5:55 pm"
-            },
-            {
-                "id":15,
-                "checkIn":"9:45 am",
-                "checkOut":"10:35 pm"
-            },
-            {
-                "id":16,
-                "checkIn":"10:05 am",
-                "checkOut":"10:35 pm"
             }
         ]
     }
